@@ -1,14 +1,12 @@
 # Code 201 Reading Notes
-This is the main page to my reading notes for my Code Fellows course: this aswsigment needs 5 features for Lab: 01a - Create a Reading Notes Repo assigment.
-
-- second feature using mark down
 
 ---
 
-[Fourth Feature linking to reddit.com](https://www.reddit.com/)
+### This is the main page where the otehr pages of my notes will link together. ###
 
- 	**Fifth feature**
-  
-  *Bonus sixth feature*
+[**Read 01**](https://rizo85.github.io/reading-notes/class-01.md)
 
-Done
+---
+
+
+

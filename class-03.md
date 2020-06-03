@@ -9,11 +9,11 @@
 
 Duckett’s HTML talks about lists on pages 62-73. Lists are an important way to represent statements as bullet points in 3 main different formats. 
 
-- The **<ol>** : a list of items with a numerical value assigned in ascending order from top to bottom.
+- The **ordered list** : a list of items with a numerical value assigned in ascending order from top to bottom.
 
-- The **<ul>** : a list without numbers and bullet poits marking the beginning of each list item.
+- The **unordered list** : a list without numbers and bullet poits marking the beginning of each list item.
 
-- The **<dl>** : a list with definitions that is followed by a definition term (<dt>) described by the definition  describing it (<dd>).
+- The **defenition list** : a list with definitions that is followed by a definition term (<dt>) described by the definition  describing it (<dd>).
 
 List can also be nested, so that list item elements (<li>) can be further specified within a given bullet: useful when a list has specifications within a given point.   
 

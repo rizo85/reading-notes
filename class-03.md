@@ -22,11 +22,16 @@ List can also be nested, so that list item elements can be further specified wit
 ##### Boxes
 
 Each element in HTML lives in a box; this is called the box model: the idea that each element is self-contained in the web page.
+
 The “box” of an element consist of the margin at the outside, the border separating it from the padding inside, the padding around the content, and the content nested inside of the “box.”
-Each one of the different components of the box can be targeted differently by css and even content can be changed by targeting the element with JS. A webpage can be modified by using the DOM (document object model) targeting the nodes inside the html document. 
+Each one of the different components of the box can be targeted differently by css and even content can be changed by targeting the element with JS. A webpage can be modified by using the DOM (document object model) targeting the nodes inside the html document.
+
 The styles of a box defining any given element have strict rules in CSS to guide what will be presented, and how to make it compatible to a given layout.
+
 For one thing, borders can be targeted, but if not done correctly they might not display or display as expected. One example is the way that certain styles can be written shorthand, and so the top, bottom, left and right have to specify in a certain order.
-A border too is a style that can be shorthanded and defining the outline of the padding on a box of the element, and while it can be used to define quickly in one statement unless the style of the border is defined along the width and color, a border will not display. 
+
+A border too is a style that can be shorthanded and defining the outline of the padding on a box of the element, and while it can be used to define quickly in one statement unless the style of the border is defined along the width and color, a border will not display.
+
 Knowing how to define the styling rules correctly is key for proper functionality and organization of the boxed model.
 
 #### Javascript
@@ -43,7 +48,7 @@ for (var I = 0; I < 3; i++){
 
 loop code;
 
-} **
+} 
 
 This loop will run and repeat while variable I is less than 3 but not equal to 3, also, the i++ inside the for loop declaration means that each time the loop run, the I variable increments by 1. This is usefull when we know how many times we need to run a loop.
 

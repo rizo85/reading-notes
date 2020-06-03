@@ -13,9 +13,9 @@ Duckett’s HTML talks about lists on pages 62-73. Lists are an important way to
 
 - The **unordered list** : a list without numbers and bullet poits marking the beginning of each list item.
 
-- The **defenition list** : a list with definitions that is followed by a definition term (<dt>) described by the definition  describing it (<dd>).
+- The **defenition list** : a list with definitions that is followed by a definition term, described by the definition  describing it.
 
-List can also be nested, so that list item elements (<li>) can be further specified within a given bullet: useful when a list has specifications within a given point.   
+List can also be nested, so that list item elements can be further specified within a given bullet: useful when a list has specifications within a given point.   
 
 ### CSS
 

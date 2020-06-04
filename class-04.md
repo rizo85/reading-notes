@@ -1,4 +1,4 @@
-# HTML Lists, CSS Boxes, JS Control Flow
+# HTML Links, CSS Layout, JS Functions
 
 [Back to Home](https://rizo85.github.io/reading-notes/)
 

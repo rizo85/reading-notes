@@ -28,4 +28,4 @@ Attribute nodes are not children of, but contained within the element nodes.
 Text nodes are just the text defined in their own nodes. If there is a child node, its never a text node but an element node child element to include additional text in a paragraph but inside a span element.
 
 DOM Tree nodes from Jon Duckett book: 
-![alt text](https://view.publitas.com/42146/346396/pages/49cb6b76ffb9c0a22524622b641b2b2d881e4259-at1000.jpg )
+![alt text](https://www-archive.mozilla.org/docs/dom/technote/whitespace/whitespace_tree.png )

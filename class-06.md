@@ -30,4 +30,13 @@ Text nodes are just the text defined in their own nodes. If there is a child nod
 DOM Tree nodes from Jon Duckett book: 
 ![alt text](https://www-archive.mozilla.org/docs/dom/technote/whitespace/whitespace_tree.png )
 
+### Reading: UNDERSTANDING THE PROBLEM DOMAIN 
+#####by John Sonmez
+
+Reading this made me realize that when i see a domain i have to fix, i immediately get transfixed by the lack of context i might feel not knowing what was trying to be achieved by the person there before me.  
+
+Sonmez makes the argument that the hardest part is just understanding the problem domain like a puzzle without the image to work upon. If i understand that and put it in to practice, i would imagine it would be like: "Well, maybe i don't know what this is supposed to be, but i can clean up the tags, organize the styling, put everything where its supposed to be..." and by slowly applying the most basic structural order i'm already improving the domain.
+
+A lot of it is just simple efforts built upon, but in order to get a domain that's not mine, but some client, then it becomes an exercise in listening to them and building based on their needs, and focus on smaller goals rather than the outdated waterfall software development life-cycle. 
+
 [Back to Home](https://rizo85.github.io/reading-notes/)

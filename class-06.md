@@ -31,7 +31,7 @@ DOM Tree nodes from Jon Duckett book:
 ![alt text](https://www-archive.mozilla.org/docs/dom/technote/whitespace/whitespace_tree.png )
 
 ### Reading: UNDERSTANDING THE PROBLEM DOMAIN 
-#####by John Sonmez
+##### by John Sonmez
 
 Reading this made me realize that when i see a domain i have to fix, i immediately get transfixed by the lack of context i might feel not knowing what was trying to be achieved by the person there before me.  
 

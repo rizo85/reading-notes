@@ -29,3 +29,5 @@ Text nodes are just the text defined in their own nodes. If there is a child nod
 
 DOM Tree nodes from Jon Duckett book: 
 ![alt text](https://www-archive.mozilla.org/docs/dom/technote/whitespace/whitespace_tree.png )
+
+[Back to Home](https://rizo85.github.io/reading-notes/)

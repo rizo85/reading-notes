@@ -14,6 +14,8 @@
 
 [**Read 06**](https://rizo85.github.io/reading-notes/class-06)
 
+[**Read 07**](https://rizo85.github.io/reading-notes/class-07)
+
 ---
 
 

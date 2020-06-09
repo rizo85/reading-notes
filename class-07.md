@@ -26,5 +26,7 @@ Page 126 helps with the DOM manipulation needed for our most current assignment.
 ##### by Sam Hamm
 
 Hamm explains that this concept of domain modeling makes it easier for us devs to understand the apps we build by systematically laying down the required attributes and methods to realize objects on our apps. This is laid out in a way that can be communicated and understood between us technical people and the business side of the clients we work for, which is important since not all project managers will know how to code.
+
 The epic fail example will help us better understand how to make the salmon cookie app, and it can compare between weekly video likes and cookies sold on average: it’s a good resource. 
+
 [Back to Home](https://rizo85.github.io/reading-notes/)

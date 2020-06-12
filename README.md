@@ -20,6 +20,8 @@
 
 [**Read 08a**](https://rizo85.github.io/reading-notes/class-08a)
 
+[**Read 09**](https://rizo85.github.io/reading-notes/class-09)
+
 ---
 
 

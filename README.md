@@ -18,9 +18,11 @@
 
 [**Read 08**](https://rizo85.github.io/reading-notes/class-08)
 
-[**Read 08a**](https://rizo85.github.io/reading-notes/class-08a)
+[**Read 9**](https://rizo85.github.io/reading-notes/class-08a)
 
-[**Read 09**](https://rizo85.github.io/reading-notes/class-09)
+[**Read 10**](https://rizo85.github.io/reading-notes/class-09)
+
+[**Read 11**](https://rizo85.github.io/reading-notes/class-11)
 
 ---
 

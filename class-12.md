@@ -17,6 +17,10 @@ Canvas uses geometry and other css styles to create graphics
 
 [Back to Home](https://rizo85.github.io/reading-notes/)
 
+<div class="blocks">
+  <div class="block orange"></div>
+  <div class="block blue"></div>
+</div>
 
 <style>
 body {

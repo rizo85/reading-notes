@@ -17,98 +17,62 @@ Canvas uses geometry and other css styles to create graphics
 
 [Back to Home](https://rizo85.github.io/reading-notes/)
 
-<svg class="gegga">
-      <defs>
-        <filter id="gegga">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-          <feColorMatrix
-            in="blur"
-            mode="matrix"
-            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 20 -10"
-            result="inreGegga"
-          />
-          <feComposite in="SourceGraphic" in2="inreGegga" operator="atop" />
-        </filter>
-      </defs>
-    </svg>
-<svg class="snurra" width="200" height="200" viewBox="0 0 200 200">
-      <defs>
-        <linearGradient id="linjärGradient">
-          <stop class="stopp1" offset="0" />
-          <stop class="stopp2" offset="1" />
-        </linearGradient>
-        <linearGradient
-          y2="160"
-          x2="160"
-          y1="40"
-          x1="40"
-          gradientUnits="userSpaceOnUse"
-          id="gradient"
-          xlink:href="#linjärGradient"
-        />
-      </defs>
-      <path
-        class="halvan"
-        d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
-      />
-      <circle class="strecken" cx="100" cy="100" r="64" />
-    </svg>
-<svg class="skugga" width="200" height="200" viewBox="0 0 200 200">
-      <path
-        class="halvan"
-        d="m 164,100 c 0,-35.346224 -28.65378,-64 -64,-64 -35.346224,0 -64,28.653776 -64,64 0,35.34622 28.653776,64 64,64 35.34622,0 64,-26.21502 64,-64 0,-37.784981 -26.92058,-64 -64,-64 -37.079421,0 -65.267479,26.922736 -64,64 1.267479,37.07726 26.703171,65.05317 64,64 37.29683,-1.05317 64,-64 64,-64"
-      />
-      <circle class="strecken" cx="100" cy="100" r="64" />
-    </svg>
-    
-    
-    <style> body {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+
+<style>
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+.blocks {
   height: 100vh;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }
-.gegga {
-  width: 0;
+
+.block {
+  --sz: 8vmin;
+  --tX: 0;
+  --animation: 700ms cubic-bezier(0.3, 0.5, 0.4, 0.9) infinite alternate-reverse;
+  --hm: 4.5vmin;
+  height: var(--sz);
+  width: var(--sz);
+  background-image: var(--bg);
+  border-radius: 50%;
+  transform: translateX(var(--tX));
+  mix-blend-mode: lighten;
 }
-.snurra {
-  filter: url(#gegga);
+
+.orange {
+  --bg: linear-gradient(-50deg, #fbab7e 0%, #f7ce68 100%);
+  margin-right: var(--hm);
+  animation: attract-orange var(--animation);
 }
-.stopp1 {
-  stop-color: #f700a8;
+
+.blue {
+  --bg: linear-gradient(50deg, #00bfd5 0%, #c5f5ff 100%);
+  margin-left: var(--hm);
+  animation: attract-blue var(--animation);
 }
-.stopp2 {
-  stop-color: #ff8000;
-}
-.halvan {
-  animation: Snurra1 10s infinite linear;
-  stroke-dasharray: 180 800;
-  fill: none;
-  stroke: url(#gradient);
-  stroke-width: 23;
-  stroke-linecap: round;
-}
-.strecken {
-  animation: Snurra1 3s infinite linear;
-  stroke-dasharray: 26 54;
-  fill: none;
-  stroke: url(#gradient);
-  stroke-width: 23;
-  stroke-linecap: round;
-}
-.skugga {
-  filter: blur(5px);
-  opacity: 0.3;
-  position: absolute;
-  transform: translate(3px, 3px);
-}
-@keyframes Snurra1 {
-  0% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: -403px;
+
+@keyframes attract-orange {
+  to {
+    transform: translateX(calc(var(--sz) + calc(var(--hm) / 4)));
   }
 }
- </style>
+
+@keyframes attract-blue {
+  to {
+    transform: translateX(calc(var(--sz) * -1 - calc(var(--hm) / 4)));
+  }
+}
+
+</style>
+
+
+<div class="blocks">
+  <div class="block orange"></div>
+  <div class="block blue"></div>
+</div>

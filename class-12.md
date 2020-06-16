@@ -15,13 +15,15 @@ Canvas uses geometry and other css styles to create graphics
 
 #### Images not needed with Canvas and element animations
 
+[Back to Home](https://rizo85.github.io/reading-notes/)
+
 <div class="loader">
 
 
 <style>
 
 .loader {
-  animation:spin 1s infinite linear;
+  animation:spin 4s linear;
   border:solid 2vmin transparent;
   border-radius:50%;
   border-right-color:#09f;
@@ -48,7 +50,7 @@ Canvas uses geometry and other css styles to create graphics
     width:16vmin;
   }
   &:after {
-    animation:spin 3s infinite linear;
+    animation:spin 4s  linear;
     border:solid 2vmin transparent;
     border-radius:50%;
     border-right-color:#6ff;
@@ -72,4 +74,3 @@ Canvas uses geometry and other css styles to create graphics
 </style>
 
 
-[Back to Home](https://rizo85.github.io/reading-notes/)

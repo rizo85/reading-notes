@@ -4,7 +4,7 @@
 
 ### Local Storage
 
-Mark Pilgrom says that the local storage we know know is mostly due to a clever solution found by HTML5.
+Mark Pilgrim says that the local storage we know know is mostly due to a clever solution found by HTML5.
 
 I used to think cookies were the solution but these are too small, not secure enough most of the time, and can just be slow on your site: not ideal.
 

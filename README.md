@@ -28,6 +28,10 @@
 
 [**Read 13**](https://rizo85.github.io/reading-notes/class-13)
 
+[**Read 14a**](https://rizo85.github.io/reading-notes/class-14a)
+
+[**Read 14b**](https://rizo85.github.io/reading-notes/class-14b)
+
 ---
 
 

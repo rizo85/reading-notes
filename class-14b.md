@@ -1,8 +1,7 @@
-# CSS Transforms, Transitions, and Animations
+# What Google Learned From Its Quest to Build the Perfect Team
 
 [Back to Home](https://rizo85.github.io/reading-notes/)
 
-### CSS
 
 Charles Duhigg talks about how google looked for the perfect team formula in his article from 2016.
 
